@@ -1,0 +1,26 @@
+body {
+  background-color: #FFBF00;
+  font-family:georgia,garamond,serif;
+}
+h1,h2,h3 {
+  color: #654321;
+  font-family:georgia,garamond,serif;
+  text-align: center;
+}
+p {
+  color: black;
+  font-family:georgia,garamond,serif;
+  text-align: center;
+}
+#hello {
+  color: #654321;
+}
+table, td {
+  border: 1px solid black;
+  padding: 15px;
+  font-family:georgia,garamond,serif;}
+th {
+  color: #654321;
+  border: 2px solid black;
+  padding: 15px;
+}
