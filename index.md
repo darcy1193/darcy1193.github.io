@@ -1,5 +1,1 @@
-mkdocs.yml
-/DMD.html
-/Images
-/Projects
-/styles.css
+* [Personal Website](DMD.html)
