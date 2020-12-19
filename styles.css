@@ -1,26 +1,63 @@
+html {
+  background-color: black;
+}
+head {
+  background-color: gray;
+}
 body {
   background-color: #D2F7F6;
   font-family:georgia,garamond,serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 0;
 }
 h1,h2,h3 {
   color: black;
+  /*background-color: gray;*/
+  /*border-color: black;*/
+  /*border-width: 5px;*/
   font-family:georgia,garamond,serif;
   text-align: center;
 }
 p {
   color: black;
-  font-family:georgia,garamond,serif;
+  /*font-family:georgia,garamond,serif;*/
   text-align: center;
 } 
-#hello {
-  color: #654321;
+#table1 {
+  border: 1px;
+  padding: 0;
+  color: black;
+  border: 2px solid black;
+  padding: 15px;
+  opacity: 90%;
+}
+#paragraph1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #img2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
   width: 40%;
+}
+.left {
+  float: left;
+}
+#img1 {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  max-height: 160px;
+  max-width: 160px;
+}
+#contactForm {
+  padding: 0;
 }
 table, td {
   border: 1px solid black;
